@@ -1,26 +1,35 @@
 ﻿<?php
-// *************************************************************************
-// *                                                                       *
-// * MONRESPRO - Integrated Logistics System                         *
-// * Copyright (c) JAOMWEB. All Rights Reserved                            *
-// *                                                                       *
-// *************************************************************************
-// *                                                                       *
-// * Email: support@jaom.info                                              *
-// * Website: http://www.jaom.info                                         *
-// *                                                                       *
-// *************************************************************************
-// *                                                                       *
-// * This software is furnished under a license and may be used and copied *
-// * only  in  accordance  with  the  terms  of such  license and with the *
-// * inclusion of the above copyright notice.                              *
-// * If you Purchased from Codecanyon, Please read the full License from   *
-// * here- http://codecanyon.net/licenses/standard                         *
-// *                                                                       *
-// *************************************************************************
+// DEBUG TEMPORAIRE - À SUPPRIMER APRÈS DIAGNOSTIC
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
+echo "<h1>DEBUG: Starting login.php</h1>";
+echo "<p>PHP Version: " . phpversion() . "</p>";
+echo "<p>Current working directory: " . getcwd() . "</p>";
 
-require_once("loader.php");
+// Include loader.php
+if (file_exists('loader.php')) {
+    echo "<p>Including loader.php...</p>";
+    require_once("loader.php");
+    echo "<p>✅ loader.php included</p>";
+} else {
+    echo "<p>❌ loader.php NOT found</p>";
+    die("Loader file missing");
+}
+
+echo "<p>Creating User and Core objects...</p>";
+
+$login = new User;
+$core = new Core;
+
+echo "<p>✅ Objects created</p>";
+
+if ($login->cdp_loginCheck() == true) {
+    echo "<p>User already logged in, redirecting to index.php</p>";
+    header("location: index.php");
+    die("Redirecting...");
+}
 
 $login = new User;
 $core = new Core;
