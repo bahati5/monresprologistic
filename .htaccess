@@ -1,0 +1,21 @@
+# Apache configuration for MonResPro Logistics
+# Allow access to all files
+
+Options -Indexes
+DirectoryIndex index.php index.html
+
+# Allow all requests
+<RequireAll>
+    Require all granted
+</RequireAll>
+
+# PHP handling
+<FilesMatch \.php$>
+    SetHandler application/x-httpd-php
+</FilesMatch>
+
+# Rewrite rules (if needed)
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L]
