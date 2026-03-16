@@ -21,6 +21,16 @@ if (file_exists('config/config.php')) {
     die("Config file missing");
 }
 
+// Include loader.php which loads Conexion class
+if (file_exists('loader.php')) {
+    echo "<p>Including loader.php...</p>";
+    require_once("loader.php");
+    echo "<p>✅ loader.php included</p>";
+} else {
+    echo "<p>❌ loader.php NOT found</p>";
+    die("Loader file missing");
+}
+
 // Test database connection
 try {
     echo "<p>Testing database connection...</p>";
