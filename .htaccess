@@ -12,9 +12,6 @@ DirectoryIndex index.php index.html
 # PHP handling
 <FilesMatch \.php$>
     SetHandler application/x-httpd-php
-    # Show PHP errors
-    php_flag display_errors on
-    php_value error_reporting E_ALL
 </FilesMatch>
 
 # Rewrite rules DISABLED for debugging

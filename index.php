@@ -1,4 +1,9 @@
-﻿<?php
+﻿<?php //00507
+// DEBUG TEMPORAIRE - À SUPPRIMER APRÈS DIAGNOSTIC
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 // *************************************************************************
 // *                                                                       *
 // * MONRESPRO - Integrated Logistics System                                      *
