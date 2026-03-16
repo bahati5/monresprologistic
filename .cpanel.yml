@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ton_user_cpanel/public_html/logistics/
+    - export DEPLOYPATH=/home/monrespr/public_html/monrespro_logistics
     - /bin/cp -R * $DEPLOYPATH
