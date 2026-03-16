@@ -31,8 +31,9 @@ try {
     die("Database connection failed");
 }
 
-echo "<h2>DEBUG: Continuing with normal execution...</h2>";
-flush(); // Force output
+echo "<h2>DEBUG: All checks passed. Stopping here.</h2>";
+echo "<p>If you see this, the problem is AFTER this point (redirect in app code).</p>";
+die("=== DEBUG STOP ===");
 
 // *************************************************************************
 // *                                                                       *
