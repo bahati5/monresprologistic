@@ -4,6 +4,36 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+echo "<h1>DEBUG: Starting index.php</h1>";
+echo "<p>PHP Version: " . phpversion() . "</p>";
+echo "<p>Current working directory: " . getcwd() . "</p>";
+echo "<p>Request URI: " . ($_SERVER['REQUEST_URI'] ?? 'N/A') . "</p>";
+
+// Test config file
+if (file_exists('config/config.php')) {
+    echo "<p>✅ config.php found</p>";
+    include 'config/config.php';
+    echo "<p>✅ config.php included</p>";
+    echo "<p>DB Host: " . CDP_DB_HOST . "</p>";
+    echo "<p>DB Name: " . CDP_DB_NAME . "</p>";
+} else {
+    echo "<p>❌ config.php NOT found</p>";
+    die("Config file missing");
+}
+
+// Test database connection
+try {
+    echo "<p>Testing database connection...</p>";
+    $db = new Conexion();
+    echo "<p>✅ Database connection successful</p>";
+} catch (Exception $e) {
+    echo "<p>❌ Database error: " . $e->getMessage() . "</p>";
+    die("Database connection failed");
+}
+
+echo "<h2>DEBUG: Continuing with normal execution...</h2>";
+flush(); // Force output
+
 // *************************************************************************
 // *                                                                       *
 // * MONRESPRO - Integrated Logistics System                                      *
