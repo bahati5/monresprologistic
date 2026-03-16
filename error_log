@@ -1,0 +1,18 @@
+[02-Jan-2026 23:31:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/monresp1/logistique.monrespro.cd/views/verify_purchase.php:26) in /home/monresp1/logistique.monrespro.cd/views/verify_purchase.php on line 136
+[02-Jan-2026 23:33:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/monresp1/logistique.monrespro.cd/views/verify_purchase.php:26) in /home/monresp1/logistique.monrespro.cd/views/verify_purchase.php on line 136
+[03-Jan-2026 00:43:24 Africa/Kinshasa] PHP Warning:  Undefined array key "messagesform85" in /home/monresp1/logistique.monrespro.cd/views/dashboard/index.php on line 246
+[03-Jan-2026 00:45:04 Africa/Kinshasa] PHP Warning:  Undefined array key "messagesform85" in /home/monresp1/logistique.monrespro.cd/views/dashboard/index.php on line 246
+[03-Jan-2026 00:45:15 Africa/Kinshasa] PHP Warning:  Undefined variable $verifylocker in /home/monresp1/logistique.monrespro.cd/views/modals/modal_add_user_shipment.php on line 142
+[03-Jan-2026 00:45:15 Africa/Kinshasa] PHP Warning:  Undefined variable $lockerauto in /home/monresp1/logistique.monrespro.cd/views/modals/modal_add_user_shipment.php on line 143
+[03-Jan-2026 00:50:20 Africa/Kinshasa] PHP Warning:  Undefined array key "messagesform85" in /home/monresp1/logistique.monrespro.cd/views/dashboard/index.php on line 246
+[03-Jan-2026 00:59:22 Africa/Kinshasa] PHP Warning:  Undefined variable $verifylocker in /home/monresp1/logistique.monrespro.cd/views/modals/modal_add_user_shipment.php on line 142
+[03-Jan-2026 00:59:22 Africa/Kinshasa] PHP Warning:  Undefined variable $lockerauto in /home/monresp1/logistique.monrespro.cd/views/modals/modal_add_user_shipment.php on line 143
+[03-Jan-2026 01:04:44 Africa/Kinshasa] PHP Warning:  Undefined array key "messagesform85" in /home/monresp1/logistique.monrespro.cd/views/dashboard/index.php on line 246
+[03-Jan-2026 01:05:23 Africa/Kinshasa] PHP Warning:  Undefined variable $verifylocker in /home/monresp1/logistique.monrespro.cd/views/modals/modal_add_user_shipment.php on line 142
+[03-Jan-2026 01:05:23 Africa/Kinshasa] PHP Warning:  Undefined variable $lockerauto in /home/monresp1/logistique.monrespro.cd/views/modals/modal_add_user_shipment.php on line 143
+[03-Jan-2026 21:44:13 Africa/Kinshasa] PHP Warning:  Undefined array key "messagesform85" in /home/monresp1/logistique.monrespro.cd/views/dashboard/index.php on line 246
+[03-Jan-2026 22:11:06 Africa/Kinshasa] PHP Warning:  Undefined array key "messagesform85" in /home/monresp1/logistique.monrespro.cd/views/dashboard/index.php on line 246
+[03-Jan-2026 22:12:18 Africa/Kinshasa] PHP Warning:  Undefined array key "messagesform85" in /home/monresp1/logistique.monrespro.cd/views/dashboard/index.php on line 246
+[03-Jan-2026 22:25:19 Africa/Kinshasa] PHP Warning:  Undefined variable $verifylocker in /home/monresp1/logistique.monrespro.cd/views/modals/modal_add_user_shipment.php on line 142
+[03-Jan-2026 22:25:19 Africa/Kinshasa] PHP Warning:  Undefined variable $lockerauto in /home/monresp1/logistique.monrespro.cd/views/modals/modal_add_user_shipment.php on line 143
+[03-Jan-2026 22:25:36 Africa/Kinshasa] PHP Warning:  Undefined array key "messagesform85" in /home/monresp1/logistique.monrespro.cd/views/dashboard/index.php on line 246

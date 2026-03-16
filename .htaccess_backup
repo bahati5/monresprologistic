@@ -1,0 +1,65 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/livraison\-shein\-madagascar$ "https\:\/\/logistics\.monrespro\.com\/livraison\-madagascar\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/livraison\-aliexpress\-madagascar$ "https\:\/\/logistics\.monrespro\.com\/livraison\-madagascar\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/livraison\-aliexpress\-senegal$ "https\:\/\/logistics\.monrespro\.com\/livraison\-senegal\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/livraison\-alibaba\-cameroun$ "https\:\/\/logistics\.monrespro\.com\/livraison\-cameroun\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr$ "https\:\/\/logistics\.monrespro\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/livraison\-aliexpress\-cameroun$ "https\:\/\/logistics\.monrespro\.com\/livraison\-cameroun\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/agence\-denvoi\-de\-colis\-au\-congo\-kinshasa$ "https\:\/\/logistics\.monrespro\.com\/livraison\-rdcongo\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/livraison\-amazon\-en\-rdc$ "https\:\/\/logistics\.monrespro\.com\/livraison\-rdcongo\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/tarifs$ "https\:\/\/logistics\.monrespro\.com\/services\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/livraison\-aliexpress\-en\-rdc$ "https\:\/\/logistics\.monrespro\.com\/livraison\-rdcongo\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/point\-relais$ "https\:\/\/logistics\.monrespro\.com\/services\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/livraison\-amazon\-cameroun$ "https\:\/\/logistics\.monrespro\.com\/livraison\-cameroun\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/livraison\-alibaba\-en\-rdc$ "https\:\/\/logistics\.monrespro\.com\/livraison\-rdcongo\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/livraison\-amazon\-senegal$ "https\:\/\/logistics\.monrespro\.com\/livraison\-senegal\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/livraison\-fnac\-cameroun$ "https\:\/\/logistics\.monrespro\.com\/livraison\-cameroun\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/livraison\-shein\-cameroun$ "https\:\/\/logistics\.monrespro\.com\/livraison\-cameroun\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/livraison\-shein\-senegal$ "https\:\/\/logistics\.monrespro\.com\/livraison\-senegal\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^logistics\.monrespro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.logistics\.monrespro\.com$
+RewriteRule ^fr\/page\/achat\-en\-ligne\-livraison\-madagascar$ "https\:\/\/logistics\.monrespro\.com\/livraison\-madagascar\.php" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php81” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php81 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
